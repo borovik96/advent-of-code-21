@@ -2,6 +2,7 @@ mod day_1;
 mod day_2;
 mod day_3;
 mod day_4;
+mod day_5;
 mod read_input;
 
 fn main() {
@@ -15,5 +16,8 @@ fn main() {
     // println!("Day 3 result 2 is {}", day_3::get_result_2());
 
     // println!("Day 4 result 1 is {}", day_4::get_result_1());
-    println!("Day 4 result 2 is {}", day_4::get_result_2());
+    // println!("Day 4 result 2 is {}", day_4::get_result_2());
+
+    // println!("Day 5 result 1 is {}", day_5::get_result_1());
+    println!("Day 5 result 2 is {}", day_5::get_result_2());
 }
